@@ -1,4 +1,4 @@
-# 🐍 Proyecto Minimalista de Comando y Control (C2) en Python
+# 🐍 Comando y Control (C2) en Python
 
 Este proyecto demuestra la arquitectura y el funcionamiento básico de un servidor de **Comando y Control (C2)** y un agente malicioso (implante) utilizando **Python** y el framework **Flask**. Se implementa un canal de comunicación seguro y cifrado para la gestión de tareas remotas.
 
