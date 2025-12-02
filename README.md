@@ -1,10 +1,10 @@
-# 🐍 Comando y Control (C2) en Python
+# Comando y Control (C2) en Python
 
 Este proyecto demuestra la arquitectura y el funcionamiento básico de un servidor de **Comando y Control (C2)** y un agente malicioso (implante) utilizando **Python** y el framework **Flask**. Se implementa un canal de comunicación seguro y cifrado para la gestión de tareas remotas.
 
 ---
 
-## 🧐 ¿Qué es un Servidor C2?
+## ¿Qué es un Servidor C2?
 
 Un servidor de **Comando y Control (C2)** es el centro de mando de una operación de ataque o test de penetración. Su función principal es **gestionar de forma remota** las máquinas comprometidas (agentes o implantes) dentro de una red objetivo.
 
@@ -15,7 +15,7 @@ Los sistemas C2 son una pieza clave en la fase final de un ataque, esencial para
 
 ---
 
-## 🧩 Componentes del Proyecto
+## Componentes del Proyecto
 
 El proyecto se compone de dos elementos principales que interactúan entre sí:
 
@@ -26,7 +26,7 @@ El proyecto se compone de dos elementos principales que interactúan entre sí:
 
 ---
 
-## 🔒 Funcionamiento de la Comunicación C2
+## Funcionamiento de la Comunicación C2
 
 La comunicación entre el Agente y el Servidor se basa en un mecanismo de **"beaconing" (baliza)** y se mantiene **cifrada** para evadir la detección y garantizar la privacidad del canal.
 
@@ -68,7 +68,7 @@ El operador (usuario) utiliza el *endpoint* `/api/push` para **enviar una tarea*
 
 ---
 
-## 🛠️ Estructura del Código
+##  Estructura del Código
 
 ### `c2.py` (Servidor)
 
@@ -87,7 +87,7 @@ El operador (usuario) utiliza el *endpoint* `/api/push` para **enviar una tarea*
 
 ---
 
-## 💡 Próximos Pasos (Cybersecurity/Ofensiva)
+##  Próximos Pasos (Cybersecurity/Ofensiva)
 
 Este proyecto es una base excelente. En un entorno real, se podría ampliar con:
 
